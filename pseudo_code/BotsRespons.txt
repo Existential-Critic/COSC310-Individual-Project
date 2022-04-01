@@ -1,0 +1,15 @@
+** THIS IS TO BE A QUIDE. NOT A STEP-BY_STEP QUIDE**
+
+Class BotsRespons:
+    def bot_respons(user_input_sentence, database_in_list):
+        database_list = database_in_list
+        bot_answer = ""
+        highest_correctness_value = 0
+        for i in database_list:
+            current_list_prompt = database_list[i][0]
+            prompt_correctness_value = sentence_similarity(user_input_sentence, current_list_prompt)
+            if prompt_correctness_value > highest_correctness_value:
+                bot_answer = database_list[i][1]
+            highest_correctness_value = prompt_correctness_value
+        
+        return bot_answer, highest_correctness_value

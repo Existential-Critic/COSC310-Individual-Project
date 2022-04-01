@@ -1,0 +1,6 @@
+
+Class GoodbyeMessage:
+    def goodbye_message():
+        list with four goodbye messages
+        random number from 1 and 3
+        return list[random number]

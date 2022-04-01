@@ -1,0 +1,23 @@
+** THIS IS TO BE A QUIDE. NOT A STEP-BY_STEP QUIDE**
+
+Class Main:
+    greet_message()
+    while(user does not enter all letters):
+        input() with error handling
+    getting_started()
+    user_wants_to_talk is true
+    database_in_list = database_to_list()
+    while(user_wants_to_talk):        
+        while(user_does_not_enter_all_letters):
+            user_input_sentence = input() with error handling
+        if(user_input_sentence length <= 2):
+            goodbye_message()
+            user_wants_to_talk is false
+        else:
+            bot_answer, correctness_value = bot_respons(user_input_sentence, database_in_list)
+            if correct_value > 1:
+                print "sorry, that a little complex for me, could you say it simply"
+            elif correct_value <= 0:
+                print "sorry, I coudn't understand. Could you say that again"
+            else:
+                print bot_answer

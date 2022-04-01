@@ -1,0 +1,12 @@
+** THIS IS TO BE A QUIDE. NOT A STEP-BY_STEP QUIDE**
+
+Class DatabaseToList:
+    def database_to_list():
+        database_list = [] 
+        open a file and assign it to a variable
+        * with relative path
+        call .readlines() and assign it to a varible
+        for loop that gose through each pair and database_list.append[line1, line2]
+        close file
+        return database_list
+        * must be done with OSError error handling

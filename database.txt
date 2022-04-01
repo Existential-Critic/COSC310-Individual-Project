@@ -1,0 +1,145 @@
+I have no friends @ I am sorry to hear that. You can always make friends. Why do you not have friends?
+Because I have no friends @ We all need friends. Plus, you can always make friends. Why do you not have friends?
+I like playing games @ Games are very popular. You should try playing with others if you ever feel down or alone.
+I like playing video game @ Games are very popular. You should try playing with others if you ever feel down or alone.
+I like games @ Games are very popular. You should try playing with others if you ever feel down or alone.
+I like video games @ Games are very popular. You should try playing with others if you ever feel down or alone.
+I like to play games @ Games are very popular. You should try playing with others if you ever feel down or alone.
+I like to play video games @ Games are very popular. You should try playing with others if you ever feel down or alone.
+I like running @ Running is very good for your body. Whenever you run outside, you should try to talk to someone. That might help you be less lonely, if that is what you are looking for.
+I like to run @ Running is very good for your body. Whenever you run outside, you should try to talk to someone. That might help you be less lonely, if that is what you are looking for.
+I like to paint @ Painting is fun. You should try going to a local paint shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like painting @ Painting is fun. You should try going to a local paint shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like playing music @ Music is fun. You should try going to a local music shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like playing music @ Music is fun. You should try going to a local music shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like music @ Music is fun. You should try going to a local music shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like listening to music @ Music is fun. You should try going to a local music shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like the gym @ The gym is fun. You should try going to a local gym. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like going to the gym @ The gym is fun. You should try going to a local gym. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like watching TV @ Watching TV is fun. You should try to find an online community on your favorite TV shows. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like to watch TV @ Watching TV is fun. You should try to find an online community on your favorite TV shows. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like to watch movies @ Movies are fun to watch. You should try going to a local theater shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like movies @ Movies are fun to watch. You should try going to a local theater shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like watching movies @ Movies are fun to watch. You should try going to a local theater shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like reading @ Reading is fun. You should try going to a local book shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like to read @ Reading is fun. You should try going to a local book shop. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like programming @ Programming is fun. You should try going to a hackathon. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like to program @ Programming is fun. You should try going to a hackathon. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like climbing @ Climbing is fun. You should try going to a local climbing gym. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I like to climb @ Climbing is fun. You should try going to a local climbing gym. You may meet people with similar interests, which can help one make friends or be less lonely; if that is what you are looking for.
+I do not have a girlfriend @ Curious, if I may be so bold, why do you not have a girlfriend?
+Because I do not have a girlfriend @ Curious, if I may be so bold, why do you not have a girlfriend?
+I do not have a boyfriend @ Curious, if I may be so bold, why do you not have a boyfriend?
+Because I do not have a boyfriend @ Curious, if I may be so bold, why do you not have a boyfriend?
+I have a boyfriend @ That is great, I hope they make you happy.
+I have a girlfriend @ That is great, I hope they make you happy.
+I do not like socializing @ That is interesting. Why do you not like socializing?
+Because I do not like socializing @ That is interesting. Why do you not like socializing?
+I have anxiety @ I am sorry to hear that. I wish I could help you with anxiety, but I am not trained to deal with anxiety.
+Because I have anxiety @ I am sorry to hear that. I wish I could help you with anxiety, but I am not trained to deal with anxiety.
+I only have one friend @ Friendship makes life much brighter. Do you do any activity with them?
+I only have two friends @ Friendship makes life much brighter. Do you do any activity with them?
+I have two friends @ Friendship makes life much brighter. Do you do any activity with them?
+I do not have any friends @ I am sorry to hear that. You can always make friends.
+I have autism @ I am sorry to hear that. I wish I could help you with autism, but I am not trained to deal with autism.
+I have aspergers @ I am sorry to hear that. I wish I could help you with aspergers, but I am not trained to deal with aspergers.
+I have depression @ I am sorry to hear that. I wish I could help you with depression, but I am not trained to deal with depression.
+I may have autism @ I am sorry to hear that. I wish I could help you with autism, but I am not trained to deal with autism.
+I may have aspergers @ I am sorry to hear that. I wish I could help you with aspergers, but I am not trained to deal with aspergers.
+I may have depression @ I am sorry to hear that. I wish I could help you with depression, but I am not trained to deal with depression.
+I like to paint with them @ Sounds quite fun.
+I like painting with them @ Sounds quite fun.
+I like to run with them @ Sounds quite fun.
+I like running with them @ Sounds quite fun.
+I like to listen music with them @ Sounds quite fun.
+I like listening music with them @ Sounds quite fun.
+I like watching TV with them @ Sounds quite fun.
+I like to watch TV with them @ Sounds quite fun.
+I like watching movies with them @ Sounds quite fun.
+I like to play music with them @ Sounds quite fun.
+I like playing music with them @ Sounds quite fun.
+I like to go to the gym with them @ Sounds quite fun.
+I like going to the gym with them @ Sounds quite fun.
+I like to play games with them @ Sounds quite fun.
+I like playing games with them @ Sounds quite fun.
+I like to play video games with them @ Sounds quite fun.
+I like playing video games with them @ Sounds quite fun.
+I like to program with them @ Sounds quite fun.
+I like programming with them @ Sounds quite fun.
+I am awkward around people @ That is perfectly fine. If you would like to be less awkward around people, when one is engaged in an activity they like, they are usually less awkward.
+I do not know @ That is perfectly fine. We can figure it out together.
+No clue @ That is perfectly fine. We can figure it out together.
+Have no idea @ That is perfectly fine. We can figure it out together.
+I have no clue @ That is perfectly fine. We can figure it out together.
+I have no idea @ That is perfectly fine. We can figure it out together.
+None come to mind @ That is perfectly fine. We can figure it out together.
+I live with my parents @ Is there a particular reason as to why?
+I have no money @ I see. As they say, money makes the world go round.
+I am poor @ I see. As they say, money makes the world go round.
+I made a friend @ That is great. Where did you make this friend?
+I made some friends @ That is great. Where did you make this friend?
+At a party @ I am very happy for you! I hope it goes well.
+I want to go to a party @ I think that is perfectly valid. If you want to and have the opportunity, I think you should.
+I want to go to a gym @ That is great. Plus, it is good for your body.
+I want to exercise @ That is great. Plus, it is good for your body.
+I want to start going to the gym @ That is great. Plus, it is good for your body.
+I want to start exercising @ That is great. Plus, it is good for your body.
+I feel alone @ I am sorry to hear that, why do you feel alone?
+I want friends @ I am sorry to hear that, why do you not have any friends?
+I feel upset @ I am sorry to hear that, why do you feel upset?
+I hate everything about myself @ I am so sorry to hear that , why do you feel you hate everything?
+Nobody cares about me @ You have a lot of people that care. Why do you feel nobody cares?
+My parents do not understand me @ I am sorry to hear, why do you feel your parents do not understand you?
+I am worthless @ I am sorry to hear that, why do you feel you are worthless?
+Everything makes me feel anxious @ What parts of your life make you feel anxious?
+People always try to help me but the thing is they are all lies @ I am sorry to hear, why do you feel people are lying when they try to help?
+No one genuinely cares @ I am sorry to hear, but there are many people that genuinely care about you. Is there something else making you feel this way?
+My parents force me to go home after school @ I am sorry to hear , why do you parents make you go home right away?
+My parents are worried I will be friends with bad people @ I am sorry to hear, why are your parents worried about your friends?
+I can not do any extracurricular activities @ I am sorry to hear , why can you not do any extracurricular activities?
+I am not capable of doing anything physically active @ I am sorry to hear, why are you not able to do anything active?
+I have health issues that stop me @ I am sorry to hear , do your health issues stop you from your other interests? What other things are you interested in?
+I have no skills @ I am sorry to hear , do you have any free time to learn new skills?
+I have a lot of free time but I am not good at anything @ You should not say that, do you do anything outside of school or when you are home in your free time?
+I sometimes like to draw and paint @ That is so cool. Why do you not join an arts club?
+I feel I am not good enough in comparison to everyone else @ I am sorry to hear, I am sure you are good enough , what makes you feel this way?
+It gets lonely sometimes being all by myself @ I am sorry to hear ,  what makes you feel like you are by yourself?
+No one understands me @ I am sorry to hear, I am sure people understand you though. What makes you feel like this?
+I do not have similar hobbies to other people @ I am sorry to hear that.
+I do not have similar hobbies to them @ I am sorry to hear that.
+Nobody reaches out to me first @ I am sorry to hear that, how does that make you feel?
+I feel unwanted @ Surely someone in your life appreciates you. Why do you feel that way?
+I do not talk to anyone for days at a time @ If that makes you feel bad telling your friends about it might help them understand. How does not talking to anyone make you feel?
+I am scared to meet new people @ Being scared of new things is quite normal. Why do you think you are scared?
+My friends think I am boring @ If they have told you that, why do you think they feel that way?
+I feel so isolated from everyone @ I am sorry to hear that, what do you think is the cause?
+Sometimes I feel so isolated from everyone @ I am sorry to hear that, what do you think is the cause?
+No one likes me @ Do not say that, I am sure you have good qualities. Why do you feel that way?
+Sometimes I feel like no one likes me @ Do not say that, I am sure you have good qualities. Why do you feel that way?
+No one understands me @ Why do you feel like no one understands you?
+I can not relate to the people around me @ You are not the only one that has trouble with this.
+I wish I had friends @ Sometimes it takes a long time to make friends. Do you feel like there is a specific reason why making friends is hard for you?
+I cannot sleep at night @ Why do you think you cannot sleep?
+I am having lots of nightmares @ I am sorry to hear that, what do you think is causing them?
+I do not want to look in the mirror @ Why do you feel that way?
+I feel like I am ugly @ You do not have to worry, what makes you feel you are ugly?
+I think I look bad @ You do not have to worry, why do you feel that you look bad?
+My friends do not want to be around me @ I am sorry to hear that, did anything happen to make you feel this way?
+I am not a good person @ Goodness is a very complicated subject, why do you feel that you are not good?
+I feel like I am not being good @ Being good is very subjective, why do you feel you are not being good?
+I keep hurting people @ Causing pain can show a person in pain, can you tell me why you feel the need to do this to others?
+I keep hurting myself @ Hurting yourself is never good, why do you feel the need to cause yourself harm?
+I cannot do anything right @ I am sure that there are things you do well. Why do you feel this way?
+I hate my life @ I am sorry to hear that, tell me what is happening that makes you feel this way?
+My dad passed away @ I am so sorry to hear that. I think you should allow yourself time to process the loss.
+My dad died @ I am so sorry to hear that. I think you should allow yourself time to process the loss.
+I lost a friend @ I am so sorry to hear that. I think you should allow yourself time to process the loss.
+I lost all my friends @ I am so sorry to hear that. I think you should allow yourself time to process the loss.
+I have three dogs @ I love dogs, I hope they make you happy.
+I have a dog @ I love dogs, I hope they make you happy.
+I have three cats @ I love cats, I hope they make you happy.
+I have a cat @ I love cats, I hope they make you happy.
+I have a bird @ I love birds, I hope they make you happy.
+I have three birds @ I love birds, I hope they make you happy.
+Yes I do @ That is perfectly fine. What else would you like to talk about?
+No I do not @ That is perfectly fine. What else would you like to talk about?

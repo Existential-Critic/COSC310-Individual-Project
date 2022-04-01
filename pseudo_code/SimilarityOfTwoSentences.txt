@@ -1,0 +1,13 @@
+Class SimilarityOfTwoSentences:
+    def sentence_similarity(user_input_sentence, current_list_prompt):
+        user_input_sentence_list = user_input_sentence.split()
+        current_list_prompt_list = current_list_prompt.split()
+        similarity_counter = 0
+        if len(user_input_sentence_list) <= len(current_list_prompt_list):
+        i = 0
+            while(i < len(user_input_sentence_list)):
+                if user_input_sentence_list[i] == current_list_prompt_list[i]:
+                    similarity_counter = 1 + similarity_counter 
+                i = 1 + i
+        correctness_value = similarity_counter / len(current_list_prompt_list)
+        return correctness_value
