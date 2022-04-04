@@ -6,6 +6,7 @@ from BotRespons import BotRespons
 from DatabaseToList import DatabaseToList
 from BotSentimentResponse import BotSentimentResponse
 from SpellingMistakes import SpellingMistakes
+from bingTranslate import translate
 #import's spacy data to significantly speed up the program
 from SentencePOSTagger import SentencePOSTagger
 import spacy_universal_sentence_encoder
@@ -86,7 +87,12 @@ class mainGUI:
         self.update()
 
         #Begin the conversation between bot and user
-        self.messageLog.append([GreetMessage.greetMessage(),"bot"])
+        greeting = GreetMessage.greetMessage()
+        self.messageLog.append([greeting,"bot"])
+        #Translate the greetings and append to the message log
+        translatedGreetings = translate([{'text':greeting}])
+        for item in translatedGreetings:
+            self.messageLog.append([item,"bot"])
 
         #Create the window loop
         self.window.mainloop()
@@ -99,14 +105,34 @@ class mainGUI:
             self.typeEntry.delete(0,tk.END)
             spelledCorrect, wordSpelledIncorrect = SpellingMistakes.spelling_mistakes(userInput)
             if(not userInput.replace(' ','').isalpha()):
-                self.messageLog.append(["Please try again, remember to use only letters.","bot"])
+                onlyLettersMessage = "Please try again, remember to use only letters."
+                self.messageLog.append([onlyLettersMessage,"bot"])
+                translatedOnlyLetterMessage = translate([{'text':onlyLettersMessage}])
+                for item in translatedOnlyLetterMessage:
+                    self.messageLog.append([item,"bot"])
             elif(len(userInput.split()) != 1):
-                self.messageLog.append(["Please try again, remember to only use one word for the greeting.","bot"])
+                oneWordMessage = "Please try again, remember to only use one word for the greeting."
+                self.messageLog.append([oneWordMessage,"bot"])
+                translatedOneWordMessage = translate([{'text':oneWordMessage}])
+                for item in translatedOneWordMessage:
+                    self.messageLog.append([item,"bot"])
             elif(not spelledCorrect):
-                self.messageLog.append(["Please try again, there were spelling mistakes.","bot"])
-                self.messageLog.append([f"The misspelled word(s) was: {wordSpelledIncorrect}","bot"])
+                spellingMistakesMessage = "Please try again, there were spelling mistakes."
+                misspelledWordsMessage = f"The misspelled word(s) was: {wordSpelledIncorrect}"
+                self.messageLog.append([spellingMistakesMessage,"bot"])
+                translatedSpellingMistakesMessage = translate([{'text':spellingMistakesMessage}])
+                for item in translatedSpellingMistakesMessage:
+                    self.messageLog.append([item,"bot"])
+                self.messageLog.append([misspelledWordsMessage,"bot"])
+                translatedMisspelledWordsMessage = translate([{'text':misspelledWordsMessage}])
+                for item in translatedMisspelledWordsMessage:
+                    self.messageLog.append([item,"bot"])
             else:
-                self.messageLog.append([GettingStarted.gettingStarted(),"bot"])
+                gettingStartedMessage = GettingStarted.gettingStarted()
+                self.messageLog.append([gettingStartedMessage,"bot"])
+                translatedGettingStartedMessage = translate([{'text':gettingStartedMessage}])
+                for item in translatedGettingStartedMessage:
+                    self.messageLog.append([item,"bot"])
                 self.conState = 1
         elif self.conState == 1:
             userInputSentence = self.typeEntry.get()
@@ -114,29 +140,64 @@ class mainGUI:
             self.typeEntry.delete(0,tk.END)
             spelledCorrect, wordSpelledIncorrect = SpellingMistakes.spelling_mistakes(userInputSentence)
             if((not userInputSentence.replace(' ','').isalpha())):
-                self.messageLog.append(["Please try again, remember to use only letters.","bot"])
+                onlyLettersMessage = "Please try again, remember to use only letters."
+                self.messageLog.append([onlyLettersMessage,"bot"])
+                translatedOnlyLetterMessage = translate([{'text':onlyLettersMessage}])
+                for item in translatedOnlyLetterMessage:
+                    self.messageLog.append([item,"bot"])
             elif (len(userInputSentence) == 0):
-                self.messageLog.append(["Nothing was entered, please try again. Remember to use only letters.","bot"])
+                nothingEnteredMessage = "Nothing was entered, please try again. Remember to use only letters."
+                self.messageLog.append([nothingEnteredMessage,"bot"])
+                translatedNothingEnteredMessage = translate([{'text':nothingEnteredMessage}])
+                for item in translatedNothingEnteredMessage:
+                    self.messageLog.append([item,"bot"])
             elif (not spelledCorrect):
-                self.messageLog.append(["Please try again, there were spelling mistakes.","bot"])
-                self.messageLog.append([f"The misspelled word(s) was: {wordSpelledIncorrect}","bot"])
+                spellingMistakesMessage = "Please try again, there were spelling mistakes."
+                misspelledWordsMessage = f"The misspelled word(s) was: {wordSpelledIncorrect}"
+                self.messageLog.append([spellingMistakesMessage,"bot"])
+                translatedSpellingMistakesMessage = translate([{'text':spellingMistakesMessage}])
+                for item in translatedSpellingMistakesMessage:
+                    self.messageLog.append([item,"bot"])
+                self.messageLog.append([misspelledWordsMessage,"bot"])
+                translatedMisspelledWordsMessage = translate([{'text':misspelledWordsMessage}])
+                for item in translatedMisspelledWordsMessage:
+                    self.messageLog.append([item,"bot"])
             elif(len(userInputSentence.split())<=1):
-                self.messageLog.append([GoodbyeMessage.goodbyeMessage(),"bot"])
+                goodbyeMessage = GoodbyeMessage.goodbyeMessage()
+                self.messageLog.append([goodbyeMessage,"bot"])
+                translatedGoodbyeMessage = translate([{'text':goodbyeMessage}])
+                for item in translatedGoodbyeMessage:
+                    self.messageLog.append([item,"bot"])
                 self.typeFrame.destroy()
                 self.exitButton.grid()
             else:
                 botAnswer,correctnessValue,spaCyUsedInBotRespons = BotRespons.bot_respons(userInputSentence,databaseInList,nlp)
+                notUnderstandMessage = "I am sorry, I cannot understand that sentence. Could you say it a little more simply please?"
                 if (spaCyUsedInBotRespons and (correctnessValue <= 0.8)):
-                    self.messageLog.append(["I am sorry, I cannot understand that sentence. Could you say it a little more simply please?","bot"])
+                    self.messageLog.append([notUnderstandMessage,"bot"])
+                    translatedNotUnderstandMessage = translate([{'text':notUnderstandMessage}])
+                    for item in translatedNotUnderstandMessage:
+                        self.messageLog.append([item,"bot"])
                 elif ((not spaCyUsedInBotRespons) and (correctnessValue > 1 or correctnessValue <= (1/2))):
-                    self.messageLog.append(["I am sorry, I cannot understand that sentence. Could you say it a little more simply please?","bot"])
+                    self.messageLog.append([notUnderstandMessage,"bot"])
+                    translatedNotUnderstandMessage = translate([{'text':notUnderstandMessage}])
+                    for item in translatedNotUnderstandMessage:
+                        self.messageLog.append([item,"bot"])
                 else:
                     if "?" in botAnswer:
-                        self.messageLog.append([f"{botAnswer}","bot"])
+                        questionBotMessage = f"{botAnswer}"
+                        self.messageLog.append([questionBotMessage,"bot"])
+                        translatedQuestionBotMessage = translate([{'text':questionBotMessage}])
+                        for item in translatedQuestionBotMessage:
+                            self.messageLog.append([item,"bot"])
                     else:
                         question, self.questionsAsked = BotSentimentResponse.bot_sentiment_response(userInputSentence, self.questionsAsked)
                         print(f"Bot: {botAnswer} {question}")
-                        self.messageLog.append([f"{botAnswer} {question}","bot"])
+                        answerQuestionBotMessage = f"{botAnswer} {question}"
+                        self.messageLog.append([answerQuestionBotMessage,"bot"])
+                        translatedAnswerQuestionBotMessage = translate([{'text':answerQuestionBotMessage}])
+                        for item in translatedAnswerQuestionBotMessage:
+                            self.messageLog.append([item,"bot"])
                 print(f"spaCy Used: {spaCyUsedInBotRespons}")
                 print(f"POS tags: {SentencePOSTagger.sentence_pos_tagger(userInputSentence)}")
                 print(f"Highest Value: {correctnessValue}")
