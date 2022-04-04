@@ -4,7 +4,8 @@ import uuid
 import requests
 
 #Add your subscription key and endpoint
-subscription_key = "YOUR_SUBSCRIPTION_KEY"
+with open("secretKey.json", "r") as file:
+  subscription_key = json.load(file)["key"]
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 #Add your location, also known as region. The default is global. This is required if using a Cognitive Services resource.
