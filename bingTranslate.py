@@ -15,17 +15,17 @@ path = '/translate'
 constructed_url = endpoint + path
 
 params = {
-    'api-version': '3.0'
-    'from': 'en'
-    'to': ['de', 'it']
+    'api-version':'3.0',
+    'from':'en',
+    'to':['de', 'it']
 }
 constructed_url = endpoint + path
 
 headers = {
-    'Ocp-Apim-Subscription-Key': subscription_key
-    'Ocp-Apim-Subscription-Region': location
-    'Content-type': 'application/json'
-    'X-ClientTraceId': str(uuid.uuid4())
+    'Ocp-Apim-Subscription-Key':subscription_key,
+    'Ocp-Apim-Subscription-Region':location,
+    'Content-type':'application/json',
+    'X-ClientTraceId':str(uuid.uuid4())
 }
 
 # You can pass more than one object in body.
