@@ -11,16 +11,19 @@ endpoint = "https://api.cognitive.microsofttranslator.com"
 #Add your location, also known as region. The default is global. This is required if using a Cognitive Services resource.
 location = "westus2"
 
+#Get the webpath and concatenate it into the endpoint
 path = '/translate'
 constructed_url = endpoint + path
 
-params = {
-    'api-version':'3.0',
-    'from':'en',
-    'to':['de', 'it']
-}
-constructed_url = endpoint + path
+#Function to save the API version, the language we are using, and the languages we are translating to
+def _params(to:list):
+    return {
+        'api-version':'3.0',
+        'from':'en',
+        'to':to
+    }
 
+#Create the headers
 headers = {
     'Ocp-Apim-Subscription-Key':subscription_key,
     'Ocp-Apim-Subscription-Region':location,
@@ -28,12 +31,7 @@ headers = {
     'X-ClientTraceId':str(uuid.uuid4())
 }
 
-# You can pass more than one object in body.
-body = [{
-    'text': 'Hello World!'
-}]
-
-request = requests.post(constructed_url,params=params,headers=headers,json=body)
-response = request.json()
-
-print(json.dumps(response,sort_keys=True,ensure_ascii=False,indent=4,separators=(',', ': ')))
+#Create the function to be imported, which gets us our translations
+def translate(body:list[dict],to:list):
+    request = requests.post(constructed_url,params=_params(to),headers=headers,json=body)
+    return request.json()
