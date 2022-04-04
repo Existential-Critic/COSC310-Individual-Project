@@ -15,13 +15,12 @@ location = "westus2"
 path = '/translate'
 constructed_url = endpoint + path
 
-#Function to save the API version, the language we are using, and the languages we are translating to
-def _params(to:list):
-    return {
-        'api-version':'3.0',
-        'from':'en',
-        'to':to
-    }
+#Dictionary to save the API version, the language we are using, and the languages we are translating to
+params = {
+    'api-version':'3.0',
+    'from':'en',
+    'to':['fr-CA','zh-Hans','pa']
+}
 
 #Create the headers
 headers = {
@@ -32,6 +31,10 @@ headers = {
 }
 
 #Create the function to be imported, which gets us our translations
-def translate(body:list[dict],to:list):
-    request = requests.post(constructed_url,params=_params(to),headers=headers,json=body)
-    return request.json()
+def translate(body:list[dict]):
+    request = requests.post(constructed_url,params=params,headers=headers,json=body)
+    if request.status_code != 200:
+        raise ValueError("Error : {}".format(request.json()['error']['message']))
+    return [item['text'] for item in request.json()[0]['translations']]
+
+#[{'text':"Hi, how are you?"}]
