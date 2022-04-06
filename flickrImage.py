@@ -13,9 +13,27 @@ webEndpoint = "https://www.flickr.com/services/rest/?method=flickr.photos.search
 def photoURL(tag:str):
   response = requests.get(webEndpoint.format(subscriptionKey,tag))
   imageData = response.json()["photos"]["photo"][0]
-  photoLink = f"https://live.staticflickr.com/{imageData['server']}/{imageData['id']}_{imageData['secret']}.jpg"
+  return f"https://live.staticflickr.com/{imageData['server']}/{imageData['id']}_{imageData['secret']}.jpg"
 
 #Function to process a statement and get a topic tag
 def topicTag(sentence):
-    topic = ''
-    return photoURL(topic)
+  sentenceTags = databaseRead()
+  topic = ''
+  if sentence in sentenceTags:
+    topic = sentenceTags.get(sentence)
+  else:
+    topic = 'therapy'
+  print(topic)
+  return photoURL(topic)
+
+#Function to get bot sentences and associated tags
+def databaseRead():
+  with open('imageTagDatabase.txt','r') as databaseFile:
+    database = databaseFile.readlines()
+    fixedDatabase = []
+    for line in database:
+      fixedDatabase.append(line.replace('\n',''))
+    properDatabase = []
+    for line in fixedDatabase:
+      properDatabase.append(line.split(' @ '))
+    return {item[0]:item[1] for item in properDatabase}
