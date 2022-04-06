@@ -23,7 +23,6 @@ def topicTag(sentence):
     topic = sentenceTags.get(sentence)
   else:
     topic = 'therapy'
-  print(topic)
   return photoURL(topic)
 
 #Function to get bot sentences and associated tags
