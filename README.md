@@ -5,7 +5,8 @@ This project's objective is to create a conversational agent that carries on a c
 In order to improve the chatbot experience, the following features have been implemented:
 | Feature    | Description |
 | ---------- | ----------------------------------------------------------------------- |
-| Simple GUI | Previously, the chatbot conversion was held in a terminal. Now, with the use of the tkinter GUI package, the user can have a conversation with the chatbot in a much nicer interface, providing a much more realistic chatbot experience. ![Imgur](https://i.imgur.com/Ku5wqu6.png) |
+| Bing Translate | Taking the sentences said by the bot and translating them into the top four languages in Canada, then posting them. Implemented using the Bing Translate API. |
+| Flickr Image Search | Posting images under the chatbox based on the sentences said by the bot, searched using the Flickr API. |
 
 # From The Group Project
 In order to improve the chatbot experience, the following features have been implemented:
