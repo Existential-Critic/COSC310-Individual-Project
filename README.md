@@ -6,6 +6,12 @@ In order to improve the chatbot experience, the following features have been imp
 | Feature    | Description |
 | ---------- | ----------------------------------------------------------------------- |
 | Simple GUI | Previously, the chatbot conversion was held in a terminal. Now, with the use of the tkinter GUI package, the user can have a conversation with the chatbot in a much nicer interface, providing a much more realistic chatbot experience. ![Imgur](https://i.imgur.com/Ku5wqu6.png) |
+
+# From The Group Project
+In order to improve the chatbot experience, the following features have been implemented:
+| Feature    | Description |
+| ---------- | ----------------------------------------------------------------------- |
+| Simple GUI | Previously, the chatbot conversion was held in a terminal. Now, with the use of the tkinter GUI package, the user can have a conversation with the chatbot in a much nicer interface, providing a much more realistic chatbot experience. ![Imgur](https://i.imgur.com/Ku5wqu6.png) |
 | Spell-checker | Previously, the chatbot would respond to misspelled words with a general error message or assumed what the user meant. Now, with the use of the NLTK corpus, the chatbot recognizes which words are misspelled and notifies the user so they can correct themselves. This ensures the chatbot understands the user correctly rather than guessing, which will increase the accuracy of the chatbot’s responses. ![Imgur](https://i.imgur.com/LS9cF6H.png) |
 | POS Tagging & Tokenization | The use of POS tagging and tokenization via NLTK assists in the chatbot’s ability to recognize synonyms as these identifiers help determine what type of synonyms are being used. ![Imgur](https://i.imgur.com/nhzxPf1.png) |
 | Synonym Recognition | This new implementation of synonym recognition using NLTK allows the chatbot to accept a wider range of responses, rather than being restricted to the vocabulary used in the database. ![Imgur](https://i.imgur.com/ZGy1LOv.png) |
