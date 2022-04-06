@@ -5,7 +5,7 @@ import requests
 
 #Add your subscription key and endpoint
 with open("secretKey.json", "r") as file:
-  subscription_key = json.load(file)["key"]
+  subscription_key = json.load(file)["bingKey"]
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 #Add your location, also known as region. The default is global. This is required if using a Cognitive Services resource.
